@@ -215,7 +215,7 @@
     position:absolute; left:336px; top:435px;
 }
 .web .web_design2 .ping {
-    position:absolute; left:1092px; top:435px; 
+    position:absolute; left:1099px; top:435px; 
     text-align:left;
 }
 .web .web_design2 .ping em {
@@ -274,7 +274,7 @@
     border-radius:10px; background-color:#96DBF4;
     width:116px; padding:10px;
     font-size:1.13rem; color:#fff;
-}
+} 
 /* =======================핑골프============== */
 .web .web_design3 {}
 .web .web_design3 img {
@@ -417,11 +417,11 @@
     text-align: center;
     margin-bottom:134px;
     font-weight:700; font-size:3.75rem;
-    position:absolute; left:693px; top:1990px;
+    position:absolute; left:780px; right:780px; top:1990px;
 }
 .design .sns_dg .sns {
     width:1400px; margin:0 auto;
-    position:absolute; left:176px; top:2190px;
+    position:absolute; left:264px; right:264px; top:2190px;
 }
 .design .sns_dg .sns .swiper-wrapper {
     transition-timing-function:linear;
@@ -439,11 +439,11 @@
 .design .banner_dg h3 {
     margin-bottom:134px;
     font-weight:700; font-size:3.75rem;
-    position:absolute; left:630px; top:2700px;
+    position:absolute; left:718px; right:710px; top:2700px;
 }
 .design .banner_dg .banner {
     width:1390px; margin:0 auto;
-    position:absolute; left:180px; top:2900px;
+    position:absolute; left:269px; right:261px; top:2900px;
 }
 .design .banner_dg .banner .swiper-wrapper {
     transition-timing-function:linear;
@@ -461,20 +461,23 @@
 .design .detail_dg h3 {
     margin-bottom:134px;
     font-weight:700; font-size:3.75rem;
-    position:absolute; left:653px; top:3400px;
+    position:absolute; left:742px; right:734px; top:3400px;
+}
+.design .detail_dg p {
+    position:absolute; left:742px; right:734px; top:3500px;
 }
 .design .detail_dg .detail {
     width:1390px; margin:0 auto;
-    position:absolute; left:181px; top:3600px;
+    position:absolute; left:269px; right:261px; top:3600px;
 }
 .design .detail_dg .detail .swiper-wrapper {
-    transition-timing-function:linear;
+    /* overflow:hidden; */
 }
 .design .detail_dg .detail .d {
     cursor: pointer;
 }
 .design .detail_dg .detail .d img {
-
+    width:60px;
 }
 .popup_bg {
     position:fixed; left:0; top:0;
@@ -488,6 +491,16 @@
 .popup_bg .scroll_bg img {
     width:100%;
 }
-.end {text-align:center;}
-.end h4 {}
-.end p {}
+.end {
+    position: relative;
+    text-align:center;
+}
+.end h3 {
+    position:absolute; left:799px; right:791px; top:3700px;
+    font-weight:700; font-size:3.75rem;
+    margin-bottom:8px;
+}
+.end p {
+    font-size:1.25rem;
+    position:absolute; left:799px; right:791px; top:3790px;
+}

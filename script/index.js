@@ -17,13 +17,8 @@ const bnrlslide = new Swiper('.banner', {
 })
 
 //상세디자인
-const detailslide = new Swiper('.detail', {
-    autoplay:{delay:0,},
-    loop:true,
-    speed:5500,
-    slide:5500,
-    slidesPerView:3,
-})
+const detailslide = new Swiper('.detail')
+
 //출력 및 숨기기
 const popup_bg = document.querySelector('.popup_bg')
 const sns = document.querySelectorAll('.sns img')
